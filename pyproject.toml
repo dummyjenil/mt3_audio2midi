@@ -1,0 +1,44 @@
+[project]
+name = "mt3-audio2midi"
+version = "0.1.0"
+description = "MT3 Music Transcription Library"
+readme = "README.md"
+authors = [
+    { name = "dummyjenil", email = "dummyjenil@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    'absl-py',
+    'flax==0.10.7',
+    'gin-config',
+    'immutabledict',
+    'librosa',
+    'mir_eval',
+    'note-seq',
+    'numpy',
+    'pretty_midi',
+    'scikit-learn',
+    'scipy',
+    'seqio==0.0.19',
+    't5',
+    'grain==0.2.0',
+    'absl-py',
+    'cached_property',
+    'clu',
+    'flax',
+    'fiddle >= 0.2.5',
+    'gin-config',
+    'jax >= 0.4.16',
+    'jaxlib >= 0.4.16',
+    'numpy',
+    'optax',
+    'orbax-checkpoint >= 0.5',
+    'tensorflow-cpu',
+    'tensorstore >= 0.1.20',
+    'tensorflow',
+    'tensorflow-datasets',
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
