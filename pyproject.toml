@@ -1,12 +1,12 @@
 [project]
 name = "mt3-audio2midi"
-version = "0.1.0"
+version = "0.2.0"
 description = "MT3 Music Transcription Library"
 readme = "README.md"
 authors = [
     { name = "dummyjenil", email = "dummyjenil@gmail.com" }
 ]
-requires-python = ">=3.11"
+
 dependencies = [
     'absl-py',
     'flax==0.10.7',
